@@ -23,6 +23,11 @@
 - HTML/CSS
 
 ---
+## Screenshot
+
+![App Home Screen](images/home_screen.png)
+
+![Prediction Result](images/prediction_result.png)
 
 ## 🧪 How to Run Locally
 
