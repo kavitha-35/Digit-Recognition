@@ -40,13 +40,13 @@ The architecture illustrates a **Convolutional Neural Network (CNN)** designed f
 
 ## 🧪 How to Run Locally
 
-```bash
 git clone https://github.com/kavitha-35/Digit-Recognition.git
 cd Digit-Recognition
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
+
 ---
 ## 📁 Project Structure
 
