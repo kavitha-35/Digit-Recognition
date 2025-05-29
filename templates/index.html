@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Digit Recognition</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+
+<body>
+    <div class="stars"></div>
+
+    <div class="container">
+        <h1 class="title">Numerical Recognition System</h1>
+    </div>
+    <div>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <h1>Upload a Digit Image</h1>
+            <input type="file" name="file" accept="image/*" required>
+            <br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+
+    <script>
+        const starsContainer = document.querySelector('.stars');
+        for (let i = 0; i < 100; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.animationDuration = (Math.random() * 2 + 1) + 's';
+            starsContainer.appendChild(star);
+        }
+    </script>
+</body>
+
+</html>

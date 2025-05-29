@@ -1,0 +1,27 @@
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore Python cache and environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+
+# Ignore specific folders
+mnist_images/
+
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore system files (macOS)
+.DS_Store
+
+# Ignore VSCode and PyCharm config folders (optional)
+.vscode/
+.idea/

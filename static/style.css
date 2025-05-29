@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #a0d4b8, #8cdd7c);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 0;
+}
+
+.star {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: gold;
+    border-radius: 50%;
+    animation: twinkle 2s infinite ease-in-out;
+    opacity: 0.8;
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+}
+
+form {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px 40px;
+    border-radius: 10px;
+    align-content:center;
+    height: 250px;
+    width:500px;
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 15px gold;
+    
+   
+
+}
+
+
+input[type="submit"] {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+    display: block;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #c9f30d;
+}
+.container {
+    z-index: 1;
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    color: gold;
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 0 0 10px gold, 0 0 20px gold;
+    margin-top: 60px;
+    z-index: 1;
+    position: relative;
+}
+
+.title_div{
+    position: relative;
+    margin-top: 30px;
+}

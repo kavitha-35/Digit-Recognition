@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<body>
+    <div class="stars">
+        <div class="star" style="top: 10%; left: 20%;"></div>
+        <div class="star" style="top: 40%; left: 70%;"></div>
+        <div class="star" style="top: 80%; left: 50%;"></div>
+        <div class="star" style="top: 60%; left: 30%;"></div>
+    </div>
+
+    <div class="result-box">
+        <h2>Predicted Digit: {{ predicted_digit }}</h2>
+        <h3>Uploaded Image:</h3>
+        <img src="{{ image }}" alt="Uploaded Digit Image" width="200">
+        <br><br>
+        <a href="/" class="home-button">← Back to Home</a>
+    </div>
+</body>
+</html>
