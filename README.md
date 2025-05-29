@@ -39,7 +39,7 @@ The architecture illustrates a **Convolutional Neural Network (CNN)** designed f
 ![Prediction Result](Result/website3.JPG)
 
 ## 🧪 How to Run Locally
-
+```
 git clone https://github.com/kavitha-35/Digit-Recognition.git
 cd Digit-Recognition
 python -m venv venv
