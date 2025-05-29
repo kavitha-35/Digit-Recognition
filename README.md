@@ -49,6 +49,7 @@ python app.py
 
 ---
 ## 📁 Project Structure
+```
 
 ├── app.py
 ├── mnist_images/
