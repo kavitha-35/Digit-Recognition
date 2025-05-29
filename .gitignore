@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
 # Distribution / packaging
 .Python
 build/
@@ -19,7 +25,6 @@ lib64/
 parts/
 sdist/
 var/
-venv/
 wheels/
 share/python-wheels/
 *.egg-info/
