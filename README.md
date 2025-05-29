@@ -25,7 +25,7 @@
 ## CNN Architecture
 ![CNN](Result/CNN_Architecture.png)
 
-The architecture illustrates a **Convolutional Neural Network (CNN)** designed for digit recognition, such as on the MNIST dataset. The input is a grayscale image of a digit (e.g., '5'), which passes through a Conv2D layer with 32 filters of **size 3x3 **and ReLU activation, followed by a MaxPooling2D layer that downsamples the feature maps using a 2x2 window. The output is then flattened into a 1D vector, passed to a Dense (fully connected) layer with 64 units and **ReLU activation**, and finally to another Dense layer with 10 units using softmax activation, producing probabilities for each of the 10 digit classes (0–9). The model predicts the digit with the highest probability as the output.
+The architecture illustrates a **Convolutional Neural Network (CNN)** designed for digit recognition, such as on the MNIST dataset. The input is a grayscale image of a digit (e.g., '5'), which passes through a Conv2D layer with 32 filters of size 3x3 and ReLU activation, followed by a MaxPooling2D layer that downsamples the feature maps using a 2x2 window. The output is then flattened into a 1D vector, passed to a Dense (fully connected) layer with 64 units and **ReLU activation**, and finally to another Dense layer with 10 units using softmax activation, producing probabilities for each of the 10 digit classes (0–9). The model predicts the digit with the highest probability as the output.
 
 ---
 ## CNN Result
